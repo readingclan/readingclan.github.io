@@ -12,6 +12,13 @@ disablePathToLower = true
 # Required if you want to render robots.txt template
 enableRobotsTXT = true
 
+# Comment
+[params.utterances]
+  repo = "readingclan/readingclan.github.io"
+  issue_term = "pathname"
+  theme = "photon-dark"
+  use_utterances = true
+
 # Needed for mermaid shortcodes
 [markup]
   [markup.goldmark.renderer]
